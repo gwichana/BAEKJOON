@@ -1,0 +1,16 @@
+#include<iostream>
+#include<string>
+using namespace std;
+int main() {
+	int a, b;
+	while (1) {
+		cin >> a >> b;
+		if (cin.eof())break;
+		cout << a + b << endl;		
+	}
+	return 0;
+}
+/*
+EOF는 end of file의 약자, 윈도우 컨트롤+z, 맥은 컨트롤+d이다.
+파일의 끝을 나타냄, cin.eof()는 마지막 입력값이면 true, 아니면 false를 반환한다.
+*/
